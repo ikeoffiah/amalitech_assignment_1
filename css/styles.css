@@ -41,9 +41,10 @@
 }
 
 .container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 9%;
+  margin-right: 9%;
   margin-top: 55px;
+ 
 }
 
 /** buttons  **/
@@ -135,6 +136,12 @@
   width: 540px;
 }
 
+.hero-image{
+  border-radius: 25px;
+  height: 480px;
+  width: 540px;
+}
+
 /** section2 **/
 
 .section2 {
@@ -144,10 +151,21 @@
 
 .section2-banner1 {
   margin-right: 30px;
+  width: 100%;
+  height: 480px;
+  border-radius: 25px;
+  background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/desktop/image-phone-and-keyboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .section2-banner2 {
   margin-right: 125px;
+  background-image: url('../images/desktop/image-glass-and-keyboard.jpg');
+  width: 100%;
+  height: 480px;
+  border-radius: 25px;
 }
 
 .section2-content {
@@ -168,6 +186,7 @@
   margin-top: 27px;
   max-width: 255px;
 }
+
 
 /** section3 **/
 
@@ -219,6 +238,33 @@ body {
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
 
+  /** header **/
+
+
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+   
+   
+  }
+  .hero-header {
+    font-size: 48px;
+  }
+
+  .hero-subheader {
+    font-size: 16px;
+    max-width: 327px;
+  }
+
+  .realse-date {
+    margin-left: 32px;
+  }
+
+  .hero-image{
+    width: 445px;
+    height: 320px;
+  }
+
   /** section2 **/
 
   .section2 {
@@ -227,11 +273,27 @@ body {
 
   .section2-banner1 {
     display: inline-block;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/tablet/image-phone-and-keyboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 214px;
+    height: 320px;
   }
 
   .section2-banner2 {
     display: inline-block;
+    background-image: url('../images/desktop/image-glass-and-keyboard.jpg');
+  width: 445px;
+  height: 320px;
+  border-radius: 25px;
+  margin-right: 10px;
   }
+
+
+
+
+  
 
   .section2-content {
     margin-top: 72px;
@@ -281,58 +343,65 @@ body {
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
-    /** hero **/
+  /** hero **/
 
-.hero{
+  .hero {
     display: grid;
     grid-template-columns: auto;
-    text-align: center;
-}
+   
+  }
 
-.hero-button{
-    align-items: center;
-    justify-content: center;
-    
-}
+  
 
-.hero-content {
-    margin-right:0px;
-    margin-bottom:90px;
-}
+  .hero-content {
+    margin-right: 0px;
+    margin-bottom: 90px;
+  }
 
-/** section3 **/
-.section3 {
+  /** section3 **/
+  .section3 {
     display: grid;
     grid-template-columns: auto;
     margin-bottom: 0px;
     text-align: center;
   }
+  .section-content {
+    align-items: center;
+    max-width: 100%;
+    
+  }
 
   .section-header {
-    
+   
     max-width: 100%;
   }
-  
-.sub-section{
+
+  .sub-section {
     margin-bottom: 64px;
-}
+  }
 
-/** section2 **/
+  /** section2 **/
 
-.banner1 {
+
+  .hero-image{
+    width: 372px;
+    height: 331px;
+  }
+
+  .banner1 {
     width: 129px;
     height: 193px;
   }
 
 
-.banner2{
+  .banner2 {
     width: 220px;
     height: 193px;
-}
+  }
 
-.section2-banner1 {
+  .section2-banner1 {
     margin-right: 24px;
   }
 
@@ -343,10 +412,21 @@ body {
 
   .section2-banner1 {
     display: inline-block;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/mobile/image-phone-and-keyboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 117px;
+    height: 193px;
   }
 
   .section2-banner2 {
     display: inline-block;
+    background-image: url('../images/mobile/image-glass-and-keyboard.jpg');
+  width: 220px;
+  height: 193px;
+  border-radius: 25px;
+  margin-right: 10px;
   }
 
   .section2-content {
@@ -361,4 +441,3 @@ body {
   }
 
 }
-
