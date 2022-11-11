@@ -47,6 +47,16 @@
  
 }
 
+.container2{
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.container3{
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
 /** buttons  **/
 
 .buttons {
@@ -151,10 +161,10 @@
 
 .section2-banner1 {
   margin-right: 30px;
-  width: 100%;
+  width: 255px;
   height: 480px;
   border-radius: 25px;
-  background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/desktop/image-phone-and-keyboard.jpg');
+  background: linear-gradient(0deg, rgba(241,103,24, 0.7), rgba(241,103,24, 0.7)), url('../images/tablet/image-phone-and-keyboard.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -163,7 +173,7 @@
 .section2-banner2 {
   margin-right: 125px;
   background-image: url('../images/desktop/image-glass-and-keyboard.jpg');
-  width: 100%;
+  width: 445px;
   height: 480px;
   border-radius: 25px;
 }
@@ -208,6 +218,12 @@
   margin-bottom: 24px;
 }
 
+.section-text{
+  max-width: 200px;
+  font-size: 24px;
+font-family: "Barlow-Black";
+color: var(--text-color);}
+
 .section-content {
   font-size: 16px;
   line-height: 26px;
@@ -224,6 +240,10 @@
   font-family: "Barlow";
   color: var(--text-content);
   margin-bottom: 65px;
+}
+
+.type-color{
+  font-family:"Barlow-Black";
 }
 
 /** background **/
@@ -274,7 +294,7 @@ body {
   .section2-banner1 {
     display: inline-block;
     border-radius: 25px;
-    background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/tablet/image-phone-and-keyboard.jpg');
+    background: linear-gradient(0deg, rgba(241,103,24, 0.7), rgba(241,103,24, 0.7)), url('../images/tablet/image-phone-and-keyboard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 214px;
@@ -345,6 +365,15 @@ body {
 
 @media only screen and (max-width: 600px) {
 
+
+
+  .container2{
+    margin-left: -10%;
+    margin-right: 0%;
+  }
+  
+ 
+
   /** hero **/
 
   .hero {
@@ -374,8 +403,18 @@ body {
   }
 
   .section-header {
-   
+    display: flex;
     max-width: 100%;
+    
+    justify-content: center;
+  }
+  .section-text{
+    max-width: 200px;
+    font-size: 24px;
+  font-family: "Barlow-Black";
+  color: var(--text-color);
+
+text-align: center;
   }
 
   .sub-section {
@@ -416,7 +455,7 @@ body {
     background: linear-gradient(0deg, rgba(241,103,24, 0.80), rgba(241,103,24, 0.80)), url('../images/mobile/image-phone-and-keyboard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 117px;
+    width: 129px;
     height: 193px;
   }
 
