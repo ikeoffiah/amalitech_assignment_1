@@ -296,13 +296,23 @@
     display: none;
   }
   /** container **/
+  .container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   .container-hero{
-    margin-right: 165px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .container2 {
-    
-    margin-left: 165px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container3 {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   /** hero **/
@@ -360,7 +370,7 @@
 
   .section2-content-subheader {
     margin-top: 0px;
-    max-width: 100%;
+    max-width: 398px;
    
   }
 
